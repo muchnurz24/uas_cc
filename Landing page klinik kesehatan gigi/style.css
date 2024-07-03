@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    background-color: rgb(236, 253, 4);
+}
+
+header {
+    background-color:rgb(31,214,233) ;
+    display: flex;
+    justify-content:space-between;
+    height: 25vh;
+    line-height: 25vh;
+    color: rgb(255, 238, 0);
+    margin-bottom: 10px;
+}
+
+header img {
+    margin-left: 20px;
+}
+
+nav {
+    background-color:rgb(182, 175, 158)  ;
+    margin-bottom: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-style: oblique;
+}
+a{
+    text-decoration: none;
+    color: chartreuse;
+
+}
+a:hover {
+    color: red;
+}
+
+.satu{
+    background-color: rgb(31, 230, 233);
+    text-align: center;
+    font-size: large;
+    justify-content: space-around;
+}
+
+.satu div {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+h2{
+    text-align: center;
+    color:chartreuse;
+}
+label{
+    display: block;
+    margin-left: 5px;
+}
+
+.dua{
+    background-color: rgb(182, 175, 158);
+    margin: 0;
+    text-align: end;
+    color: rgb(208, 254, 116);
+    padding: 5px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: inherit;
+    -ms-text-size-adjust: 15%;
+}
+
+.tiga{
+    background-color: rgb(31,214,233);
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 30px;
+}
+
+.tiga img{
+    width: 30%;
+    margin-left: 25px;
+}
+
+.empat{
+    background-color: rgb(182, 175, 158);
+    margin-bottom: 10px;
+}
+
+.empat table {
+    margin-left: 600px;
+    font-size: 20px;
+}
+
+.empat table thead tr th {
+    text-align: center; 
+    width: 370px;
+    display: block;
+    text-decoration-color: bisque;
+}
+footer {
+    background-color: rgb(20, 205, 218) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:yellow;
+    padding: 15px;
+    text-align: center
+}
